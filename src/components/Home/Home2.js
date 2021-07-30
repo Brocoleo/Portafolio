@@ -9,7 +9,7 @@ import {
 
 function Home2() {
   return (
-    <Container fluid className="home-about-section" id="about">
+    <Container fluid className="home-about-section" >
       <Container>
         <Row>
           <Col md={8} className="home-about-description">
@@ -20,10 +20,12 @@ function Home2() {
               Soy un programador junior especializado en el desarrollo frontend, aspiro a seguir aprendiendo nuevas 
               herramientas de desarrollo y generar experiencia desarrollando software en un equipo de trabajo.
               <br />
-              <br />Tengo Conocimientos en los lenguajes de 
-              <i>
-                <b className="purple"> Javascript , PHP y Java. </b>
-              </i>
+              <br />
+              Tengo conocimientos en los lenguajes de
+              <i><b className="purple"> Javascript y Java.&nbsp;</b></i>
+  
+              Tambien manejo el uso de etiquetados como 
+              <i><b className="purple"> HTML, CSS y JSX.</b></i>
               <br />
               <br />
               Mis intereses son el&nbsp;
@@ -55,14 +57,14 @@ function Home2() {
         </Row>
         <Row>
           <Col md={12} className="home-about-social">
-            <h1>FIND ME ON</h1>
+            <h1>Encuentrame</h1>
             <p>
-              Feel free to <span className="purple">connect </span>with me
+              Para cualquier consulta no dudes en hablarme por interno
             </p>
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
-                  href="https://github.com/soumyajit4419"
+                  href="https://github.com/Brocoleo"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -74,7 +76,7 @@ function Home2() {
              
               <li className="social-icons">
                 <a
-                  href="https://www.instagram.com/s.o.u.m.y.a_j.i.t/"
+                  href="https://www.instagram.com/brocoleo/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour home-social-icons"
