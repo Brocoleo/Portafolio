@@ -5,7 +5,7 @@ import Particle from "../Particle";
 import leaf from "../../Assets/Projects/leaf.png";
 import emotion from "../../Assets/Projects/emotion.jpeg";
 import editor from "../../Assets/Projects/codeEditor.png";
-import chatify from "../../Assets/Projects/chatify.png";
+import callegourmet from "../../Assets/Projects/callegourmet.png";
 import suicide from "../../Assets/Projects/suicide.png";
 import bitsOfCode from "../../Assets/Projects/blog.png";
 
@@ -20,11 +20,11 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
+              imgPath={callegourmet}
               isBlog={false}
-              title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              link="https://github.com/soumyajit4419/Chatify"
+              title="Calle Gourmet"
+              description="Es una interfaz para un negocio de comida rapida, esta construido en React, Material-UI y Firebase. Cuenta con la funcionalidad de anadir productos al carro de compra, ver el detalle del pedido y anadir maas productos por medio de un dashboard."
+              link="https://calle-gourmet-8703d.web.app/"
             />
           </Col>
 
