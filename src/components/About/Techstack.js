@@ -1,48 +1,49 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
+import { SiExpo,SiGitkraken} from "react-icons/si";
 import {
   DiJavascript1,
   DiReact,
   DiNodejs,
   DiMongodb,
-  DiPython,
+  DiHtml5,
+  DiCss3,
   DiGit,
 } from "react-icons/di";
-import { SiPytorch, SiTensorflow, SiFirebase } from "react-icons/si";
+import { SiVisualstudiocode } from "react-icons/si";
 
 function Techstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       <Col xs={4} md={2} className="tech-icons">
-        <DiReact />
-        
+        <DiReact />        
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiJavascript1 />
+      <SiExpo />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiNodejs />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiReact />
+      <SiVisualstudiocode />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiMongodb />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiPython />
+        <SiGitkraken />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiPytorch />
+      <DiGit />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiTensorflow />
+      <DiHtml5 />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiGit />
+      <DiCss3 />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiFirebase />
+      <DiJavascript1 />
       </Col>
     </Row>
   );

@@ -2,11 +2,13 @@ import React from "react";
 import { Col, Row } from "react-bootstrap";
 import {
   SiLinux,
-  SiVisualstudiocode,
-  SiJupyter,
-  SiPostman,
+  SiDocker,
+  SiPostgresql,
   SiHeroku,
+  SiFirebase
 } from "react-icons/si";
+import { DiMysql } from "react-icons/di";
+import { IoLogoVercel } from "react-icons/io5";
 
 function Toolstack() {
   return (
@@ -15,16 +17,22 @@ function Toolstack() {
         <SiLinux />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiVisualstudiocode />
+        <SiDocker />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiJupyter />
+        <DiMysql />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiPostman />
+        <SiPostgresql />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiHeroku />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiFirebase />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <IoLogoVercel />
       </Col>
     </Row>
   );

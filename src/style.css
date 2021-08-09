@@ -463,7 +463,7 @@ html {
 }
 
 .project-card-view {
-  box-shadow: 0 4px 5px 3px #293B5F !important;
+  box-shadow: 0 4px 4px 4px #293B5F !important;
   color: white !important;
   background-color: transparent !important;
   opacity: 0.9 !important;
@@ -473,7 +473,7 @@ html {
 .project-card-view:hover {
   transform: scale(1.02) !important;
   overflow: hidden !important;
-  box-shadow: 0 4px 4px 5px #293B5F !important;
+  box-shadow: 0 5px 5px 5px #293B5F !important;
 }
 
 .blog-card {
@@ -521,14 +521,14 @@ html {
 
 .btn-primary {
   color: #fff !important;
-  background-color: #623686 !important;
-  border-color: #623686 !important;
+  background-color: #03256C !important;
+  border-color: #03256C !important;
 }
 
 .btn-primary:hover {
   color: #fff !important;
-  background-color: #6d20c5d7 !important;
-  border-color: #6d20c5d7 !important;
+  background-color: #293B5F !important;
+  border-color: #293B5F !important;
 }
 .btn:focus {
   outline: none !important;
@@ -725,20 +725,20 @@ html {
   font-size: 1.1em !important;
   padding-top: 10px !important;
   padding: 0.7rem 1rem !important;
+  border-color: #284E78 !important;
 }
 
 .fork-btn-inner {
   line-height: 1.4em !important;
-  background-color: #934cce5e !important;
-  padding: 0.25rem 1.1rem !important;
+  background-color: #284E78 !important;
   vertical-align: middle !important;
   text-align: center !important;
 }
 
 .fork-btn-inner:hover {
   transform: translateY(-2px) !important;
-  background-color: #a24dd386 !important;
-  border-color: #a24dd386 !important;
+  background-color: #03256C !important;
+  border-color: #03256C !important;
 }
 .fork-btn-inner::after {
   display: none !important;

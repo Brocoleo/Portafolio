@@ -5,13 +5,10 @@ import Container from "react-bootstrap/Container";
 import logo from "../Assets/logo.png";
 import Button from "react-bootstrap/Button";
 import { Link } from "react-scroll";
-
+import { GiTechnoHeart } from "react-icons/gi";
+import { FaUser,FaLaptopCode } from "react-icons/fa";
 import {
-  AiFillStar,
   AiFillGithub,
-  AiOutlineHome,
-  AiOutlineFundProjectionScreen,
-  AiOutlineUser,
 } from "react-icons/ai";
 
 function NavBar() {
@@ -58,10 +55,10 @@ function NavBar() {
               smooth={true}
               offset={-70}
               duration={500}>
-                <AiOutlineHome style={{ marginBottom: "2px" }} /> Inicio
+                <FaUser style={{ marginBottom: "1px" }} /> {" "} Acerca de mi
               </Link>
           </Nav.Item>
-
+          
           <Nav.Item>
               <Link  
               to="projects"
@@ -69,7 +66,7 @@ function NavBar() {
               smooth={true}
               offset={-70}
               duration={500}  >
-                <AiOutlineFundProjectionScreen style={{ marginBottom: "2px" }}   />{" "} Proyectos
+                <FaLaptopCode style={{ marginBottom: "1px" }}   />{" "} Proyectos
               </Link>
           </Nav.Item>
 
@@ -79,13 +76,10 @@ function NavBar() {
               spy={true}
               smooth={true}
               offset={-70}
-              duration={500}>
-                <AiOutlineUser style={{ marginBottom: "2px" }} /> Acerca de mi
+              duration={500}>     
+                <GiTechnoHeart  style={{ marginBottom: "2px" }} /> {" "} Tecnologias
               </Link>
-          </Nav.Item>
-
-
-          
+          </Nav.Item>        
 
             <Nav.Item className="fork-btn">
               <Button
@@ -93,8 +87,7 @@ function NavBar() {
                 target="_blank"
                 className="fork-btn-inner"
               >
-                <AiFillGithub style={{ fontSize: "1.2em" }} />{" "}
-                <AiFillStar style={{ fontSize: "1.1em" }} />
+                <AiFillGithub style={{ fontSize: "1.5em" }} />{" "}
               </Button>
             </Nav.Item>
           </Nav>
