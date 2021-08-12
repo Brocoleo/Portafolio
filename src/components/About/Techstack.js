@@ -2,12 +2,10 @@ import React from "react";
 import { Col, Row } from "react-bootstrap";
 import { SiExpo,SiGitkraken} from "react-icons/si";
 import {
-  DiJavascript1,
   DiReact,
   DiNodejs,
   DiMongodb,
-  DiHtml5,
-  DiCss3,
+
   DiGit,
 } from "react-icons/di";
 import { SiVisualstudiocode } from "react-icons/si";
