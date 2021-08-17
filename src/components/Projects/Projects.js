@@ -2,7 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import leaf from "../../Assets/Projects/leaf.png";
+import covid from "../../Assets/Projects/covid.png";
 import editor from "../../Assets/Projects/codeEditor.png";
 import callegourmet from "../../Assets/Projects/callegourmet.png";
 
@@ -20,18 +20,18 @@ function Projects() {
               imgPath={callegourmet}
               isBlog={false}
               title="Calle Gourmet"
-              description="Es una interfaz para un negocio de comida rapida, esta construido en React, Material-UI y Firebase. Cuenta con la funcionalidad de anadir productos al carro de compra, ver el detalle del pedido y anadir maas productos por medio de un dashboard."
+              description="Es una interfaz para un negocio de comida rápida, está construido en React, Material-UI y Firebase. Cuenta con la funcionalidad de añadir productos al carro de compra, ver el detalle del pedido y añadir más productos por medio de un dashboard."
               link="https://calle-gourmet-8703d.web.app/"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={leaf}
+              imgPath={covid}
               isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              link="https://github.com/soumyajit4419/Plant_AI"
+              title="Coronavirus Chile"
+              description="Página Web desarrollada en React con Chart.js. El propósito es mostrar la información acerca de los datos recolectados por disease.sh la cual contiene información en tiempo real acerca de la situación con la pandemia en nuestro país. Para exponer la información utilicé el uso de gráficos y tarjetas para la fácil redacción de los datos."
+              link="https://coronavirus-chile.vercel.app/"
             />
           </Col>
 
