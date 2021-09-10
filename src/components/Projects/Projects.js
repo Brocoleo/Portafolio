@@ -3,6 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import covid from "../../Assets/Projects/covid.png";
+import clima from "../../Assets/Projects/clima.png";
 import callegourmet from "../../Assets/Projects/callegourmet.png";
 
 function Projects() {
@@ -29,8 +30,17 @@ function Projects() {
               imgPath={covid}
               isBlog={false}
               title="Coronavirus Chile"
-              description="Página Web desarrollada en React con Chart.js. El propósito es mostrar la información acerca de los datos recolectados por disease.sh la cual contiene información en tiempo real acerca de la situación con la pandemia en nuestro país. Para exponer la información utilicé el uso de gráficos y tarjetas para la fácil redacción de los datos."
+              description="Página web desarrollada en React con Chart.js. El propósito es mostrar la información acerca de los datos recolectados por disease.sh la cual contiene información en tiempo real acerca de la situación con la pandemia en nuestro país. Para exponer la información utilicé el uso de gráficos y tarjetas para la fácil redacción de los datos."
               link="https://coronavirus-chile.vercel.app/"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={clima}
+              isBlog={false}
+              title="Clima Informacion"
+              description="Aplicacion web que muestra la informacion Climatica de tu zona. La web usa los datos de la API OpenWeather para acceder a las variables climatologicas de cualquier zona del mundo y tambien muestra animaciones realizadas en Lottie para hacer una interfaz mas atractiva"
+              link="https://clima-ciudad.herokuapp.com/"
             />
           </Col>
          
