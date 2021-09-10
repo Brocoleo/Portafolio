@@ -19,7 +19,7 @@ function Home2() {
               <br />
               <br />
               Tengo conocimientos en los lenguajes de
-              <i><b className="purple"> Javascript y Java.&nbsp;</b></i>
+              <i><b className="purple"> Javascript y Python.&nbsp;</b></i>
   
               Tambien manejo el uso de etiquetados como 
               <i><b className="purple"> HTML, CSS y JSX.</b></i>
@@ -27,7 +27,7 @@ function Home2() {
               <br />
               Mis intereses son el&nbsp;
               <i>
-                <b className="purple">desarrollo web </b>
+                <b className="purple">Desarrollo Web </b>
                 en tecnologías de React y  {" "}
                 <b className="purple"> desarrollo movíl</b>
                 {" "} con React Native

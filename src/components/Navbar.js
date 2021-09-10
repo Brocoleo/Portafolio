@@ -52,9 +52,14 @@ function NavBar() {
               <Link 
               to="home"
               spy={true}
-              smooth={true}
-              offset={-70}
-              duration={500}>
+            smooth={true}
+            hashSpy={true}
+            offset={50}
+            duration={500}
+            delay={1000}
+            isDynamic={true}
+            ignoreCancelEvents={false}
+            spyThrottle={500}>
                 <FaUser style={{ marginBottom: "1px" }} /> {" "} Acerca de mi
               </Link>
           </Nav.Item>
