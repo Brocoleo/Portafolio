@@ -20,7 +20,9 @@ function Projects() {
               imgPath={callegourmet}
               isBlog={false}
               title="Calle Gourmet"
-              description="Es una interfaz para un negocio de comida rápida, está construido en React, Material-UI y Firebase. Cuenta con la funcionalidad de añadir productos al carro de compra, ver el detalle del pedido y añadir más productos por medio de un dashboard."
+              description="Es una interfaz para un negocio de comida rápida, está construido en React, Material-UI y Firebase.
+               Cuenta con la funcionalidad de añadir productos al carrito de compra, se puede ver el detalle del pedido con el precio y 
+               tiene un formulario para rellenar los datos del consumidor."
               link="https://calle-gourmet-8703d.web.app/"
             />
           </Col>
@@ -30,7 +32,11 @@ function Projects() {
               imgPath={covid}
               isBlog={false}
               title="Coronavirus Chile"
-              description="Página web desarrollada en React con Chart.js. El propósito es mostrar la información acerca de los datos recolectados por disease.sh la cual contiene información en tiempo real acerca de la situación con la pandemia en nuestro país. Para exponer la información utilicé el uso de gráficos y tarjetas para la fácil redacción de los datos."
+              description="Página web desarrollada en React, Chart.js y Vercel.
+               El propósito es mostrar la información acerca de los datos recolectados
+                por disease.sh la cual contiene información en tiempo real acerca de la
+                 situación de la pandemia en nuestro país. Para exponer la información
+                  utilicé el uso de gráficos y tarjetas para la fácil redacción de los datos."
               link="https://coronavirus-chile.vercel.app/"
             />
           </Col>
@@ -39,8 +45,12 @@ function Projects() {
               imgPath={clima}
               isBlog={false}
               title="Clima Informacion"
-              description="Aplicacion web que muestra la informacion Climatica de tu zona. La web usa los datos de la API OpenWeather para acceder a las variables climatologicas de cualquier zona del mundo y tambien muestra animaciones realizadas en Lottie para hacer una interfaz mas atractiva"
-              link="https://clima-ciudad.herokuapp.com/"
+              description="Aplicacion web que muestra la informacion Climatica de tu zona.
+               Construida con la API OpenWeather, React y AWS. Se puede acceder a las variables climatologicas
+               de cualquier zona del mundo y tambien muestra animaciones realizadas en Lottie, una libreria Javascript, 
+               que hace mas atractiva la interfaz de usuario.
+               El hosting esta en la nube de Amazon con AWS amplify."
+              link="https://master.d3ohrr9a7hwufj.amplifyapp.com/"
             />
           </Col>
          
