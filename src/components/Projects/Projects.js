@@ -50,7 +50,7 @@ function Projects() {
                de cualquier zona del mundo y tambien muestra animaciones realizadas en Lottie, una libreria Javascript, 
                que hace mas atractiva la interfaz de usuario.
                El hosting esta en la nube de Amazon con AWS amplify."
-              link="https://master.d3ohrr9a7hwufj.amplifyapp.com/"
+              link="https://clima-flax.vercel.app/"
             />
           </Col>
          
