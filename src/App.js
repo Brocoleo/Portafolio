@@ -10,7 +10,7 @@ const projects = [
     image: gourmet,
     text: "Catálogo de productos, carrito y detalle del pedido. Una experiencia de compra sencilla para un negocio de comida rápida.",
     tags: ["React", "Material UI", "Firebase"],
-    url: "https://calle-gourmet-8703d.web.app/",
+    url: "https://calle-gourmet.vercel.app/",
   },
   {
     name: "Coronavirus Chile",
