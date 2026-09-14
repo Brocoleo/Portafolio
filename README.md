@@ -1,64 +1,35 @@
-<h2 align="center">
-  Portfolio Website - v2.0<br/>
-  <a href="http://soumyajit.tech/" target="_blank">soumyajit.tech</a>
-</h2>
+# Portafolio de Leandro Miranda
 
+Portafolio profesional en español, actualizado con el CV de 2026. Incluye experiencia, resultados, proyectos, tecnologías, contacto y descarga del currículum.
 
-<br/>
+## Desarrollo
 
+Requisitos: Node.js 22 y npm.
 
+```sh
+npm ci
+npm run dev
+```
 
-<h3 align="center">
-    🔹
-    <a href="https://github.com/soumyajit4419/Portfolio/issues">Report Bug</a> &nbsp; &nbsp;
-    🔹
-    <a href="https://github.com/soumyajit4419/Portfolio/issues">Request Feature</a>
-</h3>
+`npm start` también inicia el servidor. El proyecto usa React 17 y Create React App 4; los comandos de inicio y build incluyen la compatibilidad OpenSSL necesaria para este Webpack antiguo.
 
-## TL;DR
+## Validación y publicación
 
-You can fork this repo to modify and make changes of your own. Please give me proper credit by linking back to [Soumyajit4419](https://github.com/soumyajit4419/Portfolio). Thanks!
+```sh
+CI=true npm run build
+```
 
-## Built With
+En Vercel, importar `Brocoleo/Portafolio`, usar la raíz del repositorio, preset **Create React App**, comando `npm run build` y salida `build`. La configuración está en `vercel.json`. Los pushes a la rama de producción conectada generan despliegues automáticos.
 
-My personal portfolio <a href="http://soumyajit.tech/" target="_blank">soumyajit.tech</a> which features some of my github projects as well as my resume and technical skills.<br/>
+La web es estática: no necesita desplegar la carpeta histórica `Server/`, ni configurar secretos o una base de datos.
 
-This project was built using these technologies.
+## Contenido
 
-- React.js
-- Node.js
-- Express.js
-- CSS3
-- VsCode
-- Vercel
+- `src/App.js`: contenido y secciones; datos de experiencia y proyectos.
+- `src/App.css` y `src/index.css`: diseño adaptable, navegación y movimiento reducido.
+- `public/CV_Leandro_Miranda_2026.pdf`: CV original facilitado por Leandro.
+- `src/Assets/Projects/*.webp`: capturas optimizadas; originales conservados.
 
-## Features
+Las métricas profesionales provienen del CV. Los proyectos personales son históricos; sus servicios externos pueden cambiar o dejar de estar disponibles.
 
-**📖 Multi-Page Layout**
-
-**🎨 Styled with React-Bootstrap and Css with easy to customize colors**
-
-**📱 Fully Responsive**
-
-## Getting Started
-
-Clone down this repository. You will need `node.js` and `git` installed globally on your machine.
-
-## 🛠 Installation and Setup Instructions
-
-1. Installation: `npm install`
-
-2. In the project directory, you can run: `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-The page will reload if you make edits.
-
-## Usage Instructions
-
-Open the project folder and Navigate to `/src/components/`. <br/>
-You will find all the components used and you can edit your information accordingly.
-
-### Show your support
-
-Give a ⭐ if you like this website!
+Se eliminaron de la página activa el retraso artificial de carga, los canvas de partículas y los listeners de scroll duplicados. Se utiliza IntersectionObserver con limpieza, imágenes diferidas y respeto a `prefers-reduced-motion`.
