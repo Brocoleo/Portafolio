@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import "./App.css";
-import gourmet from "./Assets/Projects/callegourmet.webp";
+import gourmet from "./Assets/Projects/calle-gourmet-desktop.webp";
 import covid from "./Assets/Projects/covid.webp";
 import clima from "./Assets/Projects/clima.webp";
 const projects = [
