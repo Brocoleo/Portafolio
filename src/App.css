@@ -290,6 +290,19 @@ h1 em {
   font-weight: 400;
   letter-spacing: -3px;
 }
+.metrics .metric-years {
+  font-size: 27px;
+  letter-spacing: -1px;
+  white-space: nowrap;
+}
+.metrics .metric-years small {
+  padding-inline: 4px;
+  font-size: 18px;
+  color: var(--lime);
+}
+.metrics .metric-degree {
+  color: var(--lime);
+}
 .metrics small {
   font-size: 28px;
 }

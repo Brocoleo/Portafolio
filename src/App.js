@@ -211,23 +211,21 @@ function App() {
             </span>
           </div>
           <div>
-            <strong>
-              75<small>%</small>
+            <strong className="metric-years">
+              2015<small>—</small>2022
             </strong>
             <span>
-              Menos tiempo operativo
+              Ingeniería Civil en Computación
               <br />
-              en procesos de Entel
+              Universidad de Talca
             </span>
           </div>
           <div>
-            <strong>
-              60<small>%</small>
-            </strong>
+            <strong className="metric-degree">LCI</strong>
             <span>
-              Menos tiempo de gestión
+              Licenciado en Ciencias
               <br />
-              en Enexum
+              de la Ingeniería
             </span>
           </div>
         </div>
